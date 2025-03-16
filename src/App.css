@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,22 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f0f0f0;
+}
+
+/* Ensure full-page iframe */
+.embed-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.embed-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 /* Header Wrapper */
