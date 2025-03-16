@@ -5,13 +5,11 @@ const EmbedWebsite = () => {
     <div className="embed-container">
       <iframe
         src="https://careerstory.onrender.com"
-        title="Career Story"
+        title="Embedded Website"
         frameBorder="0"
         className="embed-iframe"
-        allowFullScreen
       />
     </div>
   );
 };
-
 export default EmbedWebsite;
