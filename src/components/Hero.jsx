@@ -12,7 +12,7 @@ const Hero = () => {
     setTimeout(() => {
       setShowModal(false);
       window.location.href = "https://careerstory.onrender.com";
-    }, 3500);
+    }, 4000);
   };
 
   return (
@@ -177,9 +177,10 @@ const Hero = () => {
                 <line x1="12" y1="16" x2="12.01" y2="16"></line>
               </svg>
             </div> */}
-            <h3 style={{ color: "#244861", fontFamily: "'Nunito', sans-serif", margin: "0" }}>Please Wait</h3>
+            <h3 style={{ color: "#244861", fontFamily: "'Nunito', sans-serif", margin: "0" }}>Note</h3>
             <p style={{ color: "#555", margin: "0" }}>
-              Our backend servers are loading. As we are using free tier, the server spins down after inactivity. Estimated time: 10 seconds.
+            You may have to wait while our backend server starts <br/><br/>
+            Estimated time: 10 secs
             </p>
             <div
               style={{
