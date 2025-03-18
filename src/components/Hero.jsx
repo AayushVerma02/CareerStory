@@ -81,8 +81,8 @@ const Hero = () => {
         </p>
         
         <div className="button-container">
-          <button
-            onClick={handleButtonClick}
+          <Link to = "/career-story">
+            <button
             style={{
               backgroundColor: "#A3E0FF",
               color: "#244861",
@@ -126,6 +126,7 @@ const Hero = () => {
               <polyline points="12 5 19 12 12 19"></polyline>
             </svg>
           </button>
+          </Link>
         </div>
         
         {/* Modal Alert */}
