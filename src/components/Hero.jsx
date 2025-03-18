@@ -11,7 +11,7 @@ const Hero = () => {
     // Hide modal and navigate after 3 seconds
     setTimeout(() => {
       setShowModal(false);
-      window.location.href = "https://careerstory.onrender.com";
+      window.location.href = "https://career-story.vercel.app/career-story";
     }, 4000);
   };
 
